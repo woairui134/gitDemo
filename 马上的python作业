@@ -34,10 +34,11 @@ if my_fight > enemy_fight:
     my_fight = str(my_fight)
     enemy_fight = str(enemy_fight)
     print("英雄血量：" +my_fight+";"+"敌人血量：" +enemy_fight+";"+" 英雄获胜!")
+    
 elif my_fight == enemy_fight:
     print("同归于尽")
+    
 else:
     my_fight = str(my_fight)
     enemy_fight = str(enemy_fight)
     print("英雄血量：" +my_fight+";"+"敌人血量：" +enemy_fight+";"+" 敌人获胜!")
-
